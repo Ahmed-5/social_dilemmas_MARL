@@ -26,6 +26,7 @@ SWITCH_VIEW_SIZE = 3
 class SwitchEnv(MapEnv):
     def __init__(self, num_switches=6, num_agents=1, return_agent_actions=False):
         constructed_map = self.construct_map(num_switches)
+        # print(constructed_map)
         super().__init__(constructed_map, _SWITCH_ACTIONS, SWITCH_VIEW_SIZE, num_agents)
         self.return_agent_actions = return_agent_actions
         self.initial_map_state = dict()
@@ -100,7 +101,7 @@ class SwitchEnv(MapEnv):
     def setup_agents(self):
         map_with_agents = self.get_map_with_agents()
 
-        for i in range(self.num_agents):
+        for i in range(self.number_of_agents):
             agent_id = "agent-" + str(i)
             spawn_point = self.spawn_point()
             rotation = self.spawn_rotation()
