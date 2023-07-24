@@ -13,7 +13,7 @@ env = SwitchEnv(num_switches=20, num_agents=num_agents)
 
 # env = HarvestEnv(num_agents=num_agents)
 
-# obs = env.reset()
+obs = env.reset()
 # print(env.agents)
 env.setup_agents()
 # print(env.agents)
