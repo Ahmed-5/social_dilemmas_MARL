@@ -58,7 +58,7 @@ CLEANUP_MAP = [
 # 'd' means opened door
 class SwitchMapElements:
     top_row = "@@@D@@@"
-    empty_row = "@     @"
-    one_switch_row = "@s    @"
-    two_switch_row = "@s   s@"
+    empty_row = "@  P  @"
+    one_switch_row = "@s P  @"
+    two_switch_row = "@s P s@"
     bottom_row = "@@@@@@@"
