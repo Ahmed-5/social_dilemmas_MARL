@@ -2,7 +2,7 @@ import numpy as np
 from numpy.random import rand
 
 from agent import HarvestAgent
-from gym.discrete_with_dtype import DiscreteWithDType
+from gym_types.discrete_with_dtype import DiscreteWithDType
 from map_env import MapEnv
 from maps import HARVEST_MAP
 

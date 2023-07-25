@@ -3,7 +3,7 @@ import math
 import numpy as np
 
 from agent import SwitchAgent
-from gym.discrete_with_dtype import DiscreteWithDType
+from gym_types.discrete_with_dtype import DiscreteWithDType
 from map_env import MapEnv
 from maps import SwitchMapElements
 
